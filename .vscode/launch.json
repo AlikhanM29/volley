@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Volley — Flutter Web",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "preLaunchTask": "volley-server",
+      "toolArgs": ["--web-port=5173", "--dart-define=API_URL=http://localhost:8080"]
+    },
+    {
+      "name": "Volley — сервер",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/server.mjs",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

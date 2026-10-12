@@ -1,0 +1,35 @@
+{
+    "name": "Volley",
+    "short_name": "Volley",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F1F5FC",
+    "theme_color": "#1354C7",
+    "description": "Волейбол турнирлерін ұйымдастыру және матчтар кестесін жасау.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
